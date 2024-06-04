@@ -23,7 +23,7 @@ export class PerfiluPage implements OnInit {
   animate = false;
 
   constructor() { }
-  
+
   toggleAnimation() {
     this.animate = !this.animate;
   }

@@ -28,8 +28,7 @@ export class HomePage {
   passwordRecibido: string='';
   nombre: string='';
   apellido: string='';
-  selectedOption: string='';
-  selectedDate: string='';
+
 
   constructor(private navCtrl: NavController, private router:Router, private activateroute:ActivatedRoute, private alertController:AlertController) {
     this.activateroute.queryParams.subscribe( params =>{
@@ -61,7 +60,7 @@ export class HomePage {
     if (this.nombre.trim() === '' || this.apellido.trim() === '') {
       this.presentAlert('Error: nombre y apellido vacios');
     } else {
-      // Logica para manejar el envio del formulario cuando es valido
+      
       this.presentAlert('Su nombre es:' +this.nombre+' '+this.apellido);
     }
   }
