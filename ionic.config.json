@@ -1,0 +1,7 @@
+{
+  "name": "MercyMed",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar [ngClass]="{ 'animate-toolbar': animate }">    
+    <ion-button expand="block" (click)="toggleAnimation()">Perfil</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+
+<div class="container" >
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Recetas</ion-card-title>
+    <ion-card-subtitle>Agrega tus remedios y activa la alarma para recordar</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Remedio a consumir 
+  </ion-card-content>
+
+  <ion-button fill="clear">ver más</ion-button>
+
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Citas médicas</ion-card-title>
+    <ion-card-subtitle>Registra tus próximas consultas</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    XX/XX/XX a las xx:xx agenda cmd Viña... 
+  </ion-card-content>
+
+  <ion-button fill="clear">ver más</ion-button>
+ 
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Minuta saludable</ion-card-title>
+    <ion-card-subtitle>Registra tus recetas y organizate </ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Receta de hoy: xx/xx/xx __
+  </ion-card-content>
+
+  <ion-button fill="clear">ver más</ion-button>
+  
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Ejercicios</ion-card-title>
+    <ion-card-subtitle>Mantenerte en movimiento es importante para tu salud</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    No existe registro aun...
+  </ion-card-content>
+
+  <ion-button fill="clear">ver más</ion-button>
+  
+</ion-card>
+
+</div>

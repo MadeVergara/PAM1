@@ -1,0 +1,28 @@
+.container {
+  
+    
+    flex-direction: column; /* Coloca los hijos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 80vh; /* Ocupa toda la altura de la ventana */
+    
+   
+  }
+
+  ion-toolbar {
+    &.animate-toolbar {
+      animation: slideDown 1s ease-in-out;
+    }
+  }
+  
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

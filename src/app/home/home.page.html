@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar [ngClass]="{ 'animate-toolbar': animate }">    
+    <ion-button expand="block" (click)="toggleAnimation()">Bienvenido a MercyMed</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Bienvenido a MercyMed</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="container">
+    <ion-card>
+      <ion-card-content>
+        <ion-item>
+          <ion-button expand="block" class="custom-botton" (click)="goToLogin()">Iniciar sesión</ion-button>
+        </ion-item>
+      </ion-card-content>
+      
+      <ion-card-content>
+        <ion-item>
+          <ion-button  expand="block" (click)="goToRegister()">Registrar</ion-button>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>  
+  </div>
+</ion-content>
+

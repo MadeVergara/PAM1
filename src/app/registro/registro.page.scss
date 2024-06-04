@@ -1,0 +1,21 @@
+.ion.content {
+    background-image: url('/assets/img/1.PNG');
+    background-size: cover;
+}
+
+.container {
+    
+ 
+    flex-direction: column; /* Coloca los hijos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+  
+    padding: 20px;
+  }
+
+.ion-button {
+    margin-top: 20px; /* Separación entre los divs */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 300px; /* Ancho máximo opcional */
+}
